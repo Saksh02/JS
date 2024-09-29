@@ -14,7 +14,7 @@ if (wannaPlay.toLowerCase() === "yes") {
         if (againDirections === "no" || againDirections === "n") {
             console.log("You chose, not to climb")
             const directions = prompt("Now, either go straight or stay here? ")
-            if (directions.toLowerCase() === "straight"){
+            if (directions.toLowerCase() === "straight" || directions === "st" || directions === "go"){
                 console.log("Congratulations... you win!");
             } else {
                 console.log("Sorry to hear that, but you lost...")
@@ -30,7 +30,7 @@ if (wannaPlay.toLowerCase() === "yes") {
         console.log("Provide correct input...")
     }
     
-} else if (wannaPlay.toLowerCase() === "no") {
+} else if (wannaPlay.toLowerCase() === "no" || wannaPlay === "n") {
     console.log("Sorry to hear that :(");
 } else {
     console.log("Invalid input given ...");  
