@@ -11,7 +11,7 @@ if (wannaPlay.toLowerCase() === "yes") {
     if (directionToGo.toLowerCase() === "left"){
         console.log("You went left")
         const againDirections = prompt("Keep going, now there is a pole, do you want to climb it? ")
-        if (againDirections === "no") {
+        if (againDirections === "no" || againDirections === "n") {
             console.log("You chose, not to climb")
             const directions = prompt("Now, either go straight or stay here? ")
             if (directions.toLowerCase() === "straight"){

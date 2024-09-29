@@ -23,3 +23,6 @@ console.log("Hello", yourName, "how are you?");
 >
 */
 
+// && -> and operator
+// || --> or operator
+// ! --> not operator
