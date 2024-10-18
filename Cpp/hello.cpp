@@ -1,6 +1,9 @@
-#include <iostream>
-int main (int argc, char * argv[])
+#include<bits/stdc++.h>
+using namespace std;
+
+int main ()
 {
-    std::cout << "Hello, world!\n";
-    return 0;
+	cout << "Hello, world\n" << endl;
+	return 0;
 }
+

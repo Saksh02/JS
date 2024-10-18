@@ -1,16 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main () {
-    float area;
-    int base;
-    int height;
+int main ()
+{
+	int radius;
+	double area;
 
-    printf("Enter base of a triangle: ");
-    scanf("%d",&base);
-    printf("Enter height of a triangle: ");
-    scanf("%d", &height);
+	printf("Enter radius: \n");
+	scanf("%d", &radius);
 
-    area = 0.5 * base * height;
-    printf("Area of triangle is: %lf square centimeters\n", area);
-    return 0;
+	area = 0.5 * (radius * radius);
+	printf("Area of triangle is:"%lf"" ,area);
+
+	return 0;
+
 }
